@@ -19,9 +19,30 @@
 # Hardhat coverage reports
 /coverage
 
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-.idea
-.vscode
-.DS_Store
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# env
 .env
-.env.local
+.env*
+
+# serverless
+.serverless
+.warmup
+
+# claude
+.claude
+CLAUDE.md
