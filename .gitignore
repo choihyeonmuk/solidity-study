@@ -18,3 +18,10 @@
 
 # Hardhat coverage reports
 /coverage
+
+
+.idea
+.vscode
+.DS_Store
+.env
+.env.local
